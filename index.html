@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliff's ICT Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Cliff's Portfolio</h1>
+            </div>
+            <nav>
+                <div class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul id="nav-list" class="nav-list">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Hi, I'm Cliff, <br> An ICT Enthusiast</h1>
+            <p>Specialized in Computer Repair, Mobile App Development, Networking, and Web Development</p>
+            <a href="#contact" class="btn-primary glow-on-hover">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm Cliff, a passionate ICT student with a focus on providing efficient and innovative tech solutions. My services include computer repair, mobile app development, web design, and more!</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <i class="fas fa-tools"></i>
+                    <h3>Computer Repair</h3>
+                    <p>Experienced in diagnosing and fixing hardware and software issues.</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile App Development</h3>
+                    <p>Developing mobile apps with a focus on usability and design.</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Networking</h3>
+                    <p>Network setup, troubleshooting, and maintenance for businesses and individuals.</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <h3>Graphic Design</h3>
+                    <p>Designing professional graphics for websites, branding, and print media.</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>System Analysis</h3>
+                    <p>Analyzing system requirements and designing efficient solutions.</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Building responsive and visually appealing websites.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <p>"Cliff fixed my laptop within an hour! Super knowledgeable and friendly."</p>
+                    <h4>- Jane Doe, Client</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"He created a mobile app for our business, and it’s flawless. Highly recommend!"</p>
+                    <h4>- John Smith, Business Owner</h4>
+                </div>
+                <div class="testimonial">
+                    <p>"Excellent web development skills! Cliff built a website that exceeded our expectations."</p>
+                    <h4>- Sarah Lee, Entrepreneur</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Get in touch with me by filling out the form below.</p>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <input type="hidden" name="access_key" value="54047180-4c3d-4e84-b6b7-06fbe9f1b813">
+                <input type="hidden" name="reply_to" value="your-email@example.com"> <!-- Replace with your email -->
+
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Your message here..." required></textarea>
+
+                <button type="submit" class="btn-primary glow-on-hover">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Cliff's Portfolio | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
